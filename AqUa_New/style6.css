@@ -1,0 +1,163 @@
+@import url(/font.css);
+
+.seans{
+margin: 150px auto 150px auto;
+width: 1296px;
+height: 699px;
+
+}
+
+.seans__head{
+margin: 0 auto;
+width: 482px;
+height: 59px;
+
+display: flex;
+flex-direction: row;
+}
+
+.head__text{
+width: 336px;
+height: 59px;
+margin: 0;
+font-family: 'El Messiri';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.head__picl{
+width: 28px;
+height: 14px;
+background: #018ABE;
+border-radius: 0px 50px;
+margin-top: 22px;
+margin-right: 45px;
+}
+
+.head__picr{
+width: 28px;
+height: 14px;
+background: #018ABE;
+border-radius: 0px 50px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+margin-top: 22px;
+margin-left: 45px;
+}
+
+.seans__group{
+    margin: 100px auto 0px auto;
+    width: 1296px;
+    height: 540px;
+    display: grid;
+    grid-template-columns: 416px 416px 416px;
+    grid-template-rows: 258px 258px;
+    gap: 24px;
+    
+}
+
+.A{
+    width: 416px;
+    height: 540px;
+    
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.A__text{
+    margin: 456px 108px 0 50px;
+    width: 258px;
+    height: 34px;
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    position: relative;
+    display: inline-block;
+}
+.A__img{
+
+    position: absolute;
+    width: 416px;
+    height: 540px;
+    background: linear-gradient(0deg, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)), #8E8E8E;
+    border-radius: 10px;
+    
+    
+}
+.A__rec{
+    margin: 43px auto 0 auto;
+    width: 416px;
+    height: 7px;
+    background: #018ABE;
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+    display: inline-block;
+}
+.B{
+
+    width: 416px;
+    height: 258px;
+    
+    border-radius: 10px;
+    grid-column: 2; 
+    grid-row: 1 2;
+    cursor: pointer;
+}
+
+.B__text{
+    margin: 194px 40px 30px 40px;
+    width: 336px;
+    height: 34px;
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    position: relative;
+    display: inline-block;
+}
+.B__img{
+    position: absolute;
+    width: 416px;
+    height: 258px;
+    background: linear-gradient(0deg, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)), #8E8E8E;
+    border-radius: 10px;
+}
+.C{
+
+    width: 416px;
+    height: 258px;
+    
+    border-radius: 10px;
+    grid-column: 3; 
+    grid-row:1;
+    cursor: pointer;
+    
+}
+.C:last-child{grid-row:2;}
+
+.C__text{
+    margin: 160px 40px 30px 40px;
+    width: 336px;
+    height: 68px;
+    width: 336px;
+    height: 34px;
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    position: relative;
+    display: inline-block;
+}
+.C__img{
+    position: absolute;
+    width: 416px;
+    height: 258px;
+    background: linear-gradient(0deg, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)), #8E8E8E;
+    border-radius: 10px;
+}
