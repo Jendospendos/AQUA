@@ -82,3 +82,70 @@
   width: 1296px;
   height: 600px;
 }
+@media (max-width: 1298px){
+  .header{
+    max-width:90% ;}
+  .header__head{
+      gap: 5%;
+      max-width:60% ;
+    }
+  .first__screen{
+      width: 90%;
+      height: 90%;
+      margin-top: 5%;
+    }
+  .header__text{
+      font-size: 13px;
+    }
+  .header__zapis{
+      width: 155px;
+      height: 36px;
+      font-size: 13px;
+      
+    }
+  }
+
+
+@media (max-width: 910px){
+    .header__head{
+        gap: 4%;
+      }
+    .header__text{
+        font-size: 11px;
+      }
+    .header__zapis{
+        width: 120px;
+        height: 30px;
+        font-size: 10px;
+        
+      }
+    }
+
+    @media (max-width: 720px){
+      .header__head{
+          gap: 3%;
+        }
+      .header__text{
+          font-size: 9px;
+        }
+      .header__zapis{
+          width: 100px;
+          height: 30px;
+          font-size: 9px;
+          
+        }
+      }
+      @media (max-width: 480px){
+        .header__head{
+            gap: 1%;
+          }
+        .header__text{
+            font-size: 7px;
+          }
+        .header__zapis{
+            width: 80px;
+            height: 25px;
+            font-size: 7px;
+            
+          }
+        }
